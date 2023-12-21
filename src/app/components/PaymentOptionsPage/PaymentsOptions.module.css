@@ -1,0 +1,160 @@
+/* PaymentOptionPage.module.css */
+
+.container {
+  background-color: #ffffff; /* White background */
+  border: 1px solid #eeeeee; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 16px; /* Padding around the container */
+  margin: 16px; /* Margin for spacing */
+  height: 100%;
+}
+
+.heading {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000; 
+  text-align: center;
+  margin-bottom: 16px; 
+}
+
+
+
+
+.paymentOption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff; /* White background */
+  border: 1px solid #eeeeee; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 16px; /* Padding for spacing */
+  margin-bottom: 16px; /* Bottom margin for spacing */
+  cursor: pointer; /* Cursor pointer for interaction */
+  transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.paymentOption:hover {
+  background-color: #f8f9fa; /* Light gray background on hover */
+}
+
+.paymentOption img {
+  max-width: 50px; /* Adjust as needed */
+  margin-right: 16px; /* Right margin for spacing */
+}
+
+.paymentOption span {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 16px;
+  color: #000000; /* Black text */
+}
+
+.paymentButton {
+  width: 100%;
+  background-color: #4285f4; /* Blue color for the payment button */
+  color: #ffffff;
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.paymentButton:hover {
+  background-color: #2d60a7; /* Darker blue color on hover */
+}
+
+/* PaymentsOptions.module.css */
+
+.cardContainer {
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  width: 50%;
+  margin-left: 25%;
+  margin-right:25%;
+  height: 10%;/* Adding a subtle box shadow */
+  /* justify-content: space-between; */
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.cardLogo {
+
+  width: 30%;
+  margin-left: 35%;
+  margin-right: 35%;
+  height: 50px; /* Adjust the size as needed */
+  height: auto;
+}
+
+.cardDetails {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 16px;
+  color: #000000;
+  justify-content: space-between;
+}
+
+.cardFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.cardNumber {
+  margin: 10px;
+  font-size: 14px;
+}
+
+.cardExpiry {
+  font-size: 14px;
+}
+
+.cardActions {
+  display: flex;
+  gap: 8px;
+}
+
+.actionButton {
+  background-color: #4285f4;
+  color: #ffffff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.actionButton:hover {
+  background-color: #2d63b3; /* Darker shade on hover */
+}
+
+.inputField {
+  margin-bottom: 16px;
+}
+
+.label {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 14px;
+  color: #000000;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 14px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  box-sizing: border-box;
+}

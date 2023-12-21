@@ -1,0 +1,143 @@
+/* OrderConfirmationPage.module.css
+.order-confirmation-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .order-details {
+    margin-bottom: 20px;
+  }
+  
+  .ordered-item {
+    display: flex;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  .ordered-item img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+  }
+  
+  .payment-method {
+    margin-bottom: 20px;
+  }
+  
+  .order-status {
+    font-weight: bold;
+    color: green;
+  }
+  
+  /* Add more styles as needed */
+   
+
+  /* OrderConfirmationPage.module.css */
+
+/* OrderConfirmationPage.module.css */
+
+/* OrderConfirmationPage.module.css */
+
+.order-confirmation-container {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 14px;
+  color: #000000;
+  margin: 16px;
+  text-align: center;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.check{
+  color: #18599a; /* Dark blue color for headings */
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  margin-right: 45%;
+}
+.grow img{
+  height: 40px;
+  width: 40px;
+}
+
+
+.h2 {
+  font-weight: bold;
+  color: #18599a;
+}
+.h3{
+  text-align: left;
+  color: #18599a;
+}
+.p{
+  text-align: left;
+  color: #1d6d14;
+}
+
+.order-details {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: row;
+}
+
+.ordered-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: space-between; */
+  margin: 20px;
+  border: 1px solid #EEEEEE;
+  padding: 16px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease-in-out;
+  background-color: #f8f8f8 ;
+}
+
+.ordered-item:hover {
+  background-color: #ccc8c8;
+}
+
+.ordered-item img {
+  width: 80px;
+  height: 80px;
+  margin-right: 16px;
+  border-radius: 4px;
+}
+
+.product-details {
+  flex-grow: 1;
+}
+
+.payment-method, .order-status {
+  margin-top: 32px;
+}
+
+.proceed-button {
+  background-color: #4285F4;
+  color: #FFFFFF;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.proceed-button:hover {
+  background-color: #0066cc;
+}
+
+.order-status{
+  color: #1d6d14 ;
+  background-color: #f8f8f8;
+}
+
+.payment-method{
+  color: #1d6d14 ;
+  background-color: #f8f8f8;
+}

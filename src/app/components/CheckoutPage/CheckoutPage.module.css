@@ -1,0 +1,193 @@
+/* CheckoutPage.module.css */
+
+/* .container { */
+  /* background-color: #f0f0f0; Light grayish background for the whole page */
+/* } */
+
+.container {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 14px;
+  margin: 16px;
+  justify-content: flex-end;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.check{
+  color: #18599a; /* Dark blue color for headings */
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  margin-right: 45%;
+}
+.grow img{
+  height: 40px;
+  width: 40px;
+}
+
+
+.section {
+  margin: 16px 0;
+  background-color: #ecf0f1; /* Light blueish background for sections */
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.subheading {
+  color: #2980b9; /* A shade of blue for subheadings */
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+}
+
+.orderSummary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.card {
+  background-color: #ffffff; /* White background for cards */
+  border: 1px solid #ecf0f1; /* Light border for cards */
+  border-radius: 8px;
+  padding: 16px;
+  flex: 1 1 calc(33.33% - 16px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.card:hover {
+  background-color: #e6e3e3; /* Light grayish background on hover */
+}
+
+.product {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.productImage {
+  width: 50px;
+  height: 50px;
+  margin-right: 16px;
+  border-radius: 4px;
+}
+
+.productInfo {
+  flex: 1;
+}
+
+.productName {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.productDetails {
+  color: #777777;
+}
+
+.productPrice {
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  /* justify-content: space-between; */
+  margin-top: 8px;
+}
+
+.addbutton {
+  background-color: #04ab1d; /* Blue color for buttons */
+  color: #ffffff;
+  border: none;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.deletebutton {
+  background-color: #e00a0a; /* Blue color for buttons */
+  color: #ffffff;
+  border: none;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #2d60a7; /* Darker blue color on hover */
+}
+
+.totalAmount {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 16px;
+  color: #f8f8f8; 
+  background-color:#1d6d14 ;/* Black color for total amount */
+  font: 1em sans-serif;
+  width: max-content;
+  padding: 10px;
+}
+
+.totalAmount:hover{
+  background-color: #d80303;
+}
+
+.selected {
+  list-style-type: none;
+  padding: 8px;
+  border: 1px solid #ecf0f1;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2f65bc; /* Highlight selected payment method */
+  color: #f8fcf8;
+}
+
+.paymentLogo {
+  width: 80px;
+  height: 24px;
+  margin-left: 8px;
+}
+
+.paymentMethods {
+  margin-top: 16px;
+  margin-left: 100px;
+  width: 1000px;
+  justify-items: center;
+}
+
+.unselected {
+  list-style-type: none;
+  padding: 8px;
+  background-color: #ffffff;
+  border: 1px solid #ecf0f1;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Center align content */
+}
+
+.paymentButton {
+  width: 100%;
+  background-color: #4285f4; /* Blue color for the payment button */
+  color: #ffffff;
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.paymentButton:hover {
+  background-color: #2d60a7; /* Darker blue color on hover */
+}
